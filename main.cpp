@@ -414,6 +414,7 @@ int main()
 	ImageData tlayer;
 	ImageData blayer;
 	ImageData comparison;
+	system("mkdir output");
 
 	tlayer = LoadData("input/layer1.tga");
 	blayer = LoadData("input/pattern1.tga");
